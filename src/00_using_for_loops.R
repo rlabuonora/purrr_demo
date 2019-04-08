@@ -1,4 +1,6 @@
-
+library(XML)
+library(tools)
+library(tidyverse)
 # para cada archivo en el directorio
 
 for (f in list.files("./data/xml", full.names = TRUE)) {
